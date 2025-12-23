@@ -1,0 +1,58 @@
+{
+  "api_id": 1234567,
+  "api_hash": "your_api_hash_here",
+  "session_name": "vacancy_session",
+  "target_channel": "@vacancyparse",
+  "monitor_all_dialogs": true,
+  "monitor_chat_ids": [],
+  "history_scan": true,
+  "history_hours": 24,
+  "history_limit_per_chat": 1000,
+  "min_delay_seconds": 1.5,
+  "proximity_chars": 80,
+  "role_keywords": [
+    "таргет",
+    "таргетолог",
+    "вк таргет",
+    "vk таргет",
+    "контекст",
+    "директ",
+    "яндекс директ",
+    "yandex.direct"
+  ],
+  "seeking_keywords": [
+    "ищем",
+    "ищут",
+    "нужн",
+    "нужны",
+    "нужен",
+    "требуется",
+    "ваканс",
+    "vacancy",
+    "hiring",
+    "open position"
+  ],
+  "exclude_keywords": [
+    "помог",
+    "помогаю",
+    "помогу",
+    "предлагаю",
+    "предоставляю",
+    "услуг",
+    "фриланс",
+    "ищу работу",
+    "я фрилансер",
+    "#помогу",
+    "заказать"
+  ],
+  "exclude_platforms": [
+    "google",
+    "facebook",
+    "tiktok",
+    "youTube",
+    "youtube",
+    "avito",
+    "instagram"
+  ],
+  "db_file": "vacancy_seen.db"
+}
